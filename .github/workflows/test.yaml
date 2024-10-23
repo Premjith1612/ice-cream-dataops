@@ -6,7 +6,7 @@ on:
 jobs:
   build-modules:
     runs-on: ubuntu-latest
-    environment: test
+    environment: Test
     env:
       IDP_SCOPES: https://westeurope-1.cognitedata.com/.default
       CDF_PROJECT: ${{ vars.CDF_PROJECT }}
