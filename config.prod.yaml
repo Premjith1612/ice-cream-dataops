@@ -1,7 +1,7 @@
 environment:
-  name: test
-  project: cdf-bootcamp-59-test
-  type: test
+  name: prod
+  project: cdf-bootcamp-59-prod
+  type: prod
   selected:
   - modules/
   - modules/bootcamp/data_foundation
@@ -11,7 +11,7 @@ environment:
 variables:
   modules:
     bootcamp:
-      CDF_PROJECT: cdf-bootcamp-59-test # ex. cdf-bootcamp-01-test
+      CDF_PROJECT: cdf-bootcamp-59-prod # ex. cdf-bootcamp-01-test
       IDP_CLIENT_ID: ${IDP_CLIENT_ID} # replaced by .env
       IDP_CLIENT_SECRET: ${IDP_CLIENT_SECRET} # replaced by .env
       IDP_TENANT_ID: ${IDP_TENANT_ID} # replaced by .env
@@ -21,16 +21,16 @@ variables:
       IDP_TOKEN_URL: ${IDP_TOKEN_URL} # replaced by .env
       # Groups
       # OBJECT ID FOR TEST/PROD DATA PIPELINE OEE ENTRA GROUP
-      data_pipeline_oee_source_id: 2263f4fe-dc5e-40a8-ada6-c28af3e3c21c
+      data_pipeline_oee_source_id: 883e1e5e-d568-4f43-956e-4a905d4bbe41
       # OBJECT ID FOR TEST/PROD ADMIN TK ENTRA GROUP
-      readwrite_source_id: 85d2c782-6692-43c4-b611-79ffdaf5e72b
+      readwrite_source_id: e259f12c-932a-4373-8912-6c9ffbed83db
       # OBJECT ID FOR TEST/PROD ADMIN TK ENTRA GROUP
-      readonly_source_id: 85d2c782-6692-43c4-b611-79ffdaf5e72b
+      readonly_source_id: e259f12c-932a-4373-8912-6c9ffbed83db
       # OBJECT ID FOR TEST/PROD ICAPI EXTRACTORS ENTRA GROUP
-      icapi_extractors_source_id: 00ac3799-e89e-40a6-a26f-0b3ab6ce6a6d
+      icapi_extractors_source_id: 01319990-bc16-4287-b119-2f1e96d7258b
 
-      # data_developer_source_id: 85d2c782-6692-43c4-b611-79ffdaf5e72b
-      # data_extractor_source_id: 00ac3799-e89e-40a6-a26f-0b3ab6ce6a6d
+      # data_developer_source_id: e7d1ed26-59c5-414d-8959-fc7fc2c7e749
+      # data_extractor_source_id: 
       # data_pipeline_source_id: 2263f4fe-dc5e-40a8-ada6-c28af3e3c21c
       # api_ds_externalId: api_ice_cream_data
       
