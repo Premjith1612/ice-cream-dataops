@@ -45,5 +45,6 @@ variables:
       use_cases:
         oee:
           uc_oee_ds_external_id: ds_uc_oee
+          # oee_ds_externalId: oee_ice_cream_data
 
     
