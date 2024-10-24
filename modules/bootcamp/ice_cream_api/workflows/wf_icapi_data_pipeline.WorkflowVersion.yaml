@@ -53,7 +53,7 @@ workflowDefinition:
     onFailure: abortWorkflow
     dependsOn: 
       - externalId: icapi_timeseries_extractor
-      - externalId: create_assets_hierarchy      
+      - externalId: create_asset_hierarchy      
   - externalId: oee_timeseries
     type: function
     parameters:
