@@ -11,11 +11,11 @@ workflowDefinition:
     retries: 3
     timeout: 3600
     onFailure: abortWorkflow
-  - externalId: create_assets_hierarchy
+  - externalId: create_asset_hierarchy
     type: transformation
     parameters:
       transformation:
-        externalId: create_assets_hierarchy
+        externalId: create_asset_hierarchy
         concurrencyPolicy: waitForCurrent
     retries: 3
     timeout: 3600
